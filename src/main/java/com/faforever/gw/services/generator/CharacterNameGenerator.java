@@ -261,7 +261,7 @@ public class CharacterNameGenerator {
 			if(findString(name, blacklistNames)) return generateName(faction);
 			return name;
 		}
-		return null;
+		return "NoName";
 	}
 
 
